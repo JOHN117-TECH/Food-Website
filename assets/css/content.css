@@ -86,7 +86,6 @@ a:active {
     display: none;
     height: 60%;
     width: 80%;
-    background: url('../img/food-1.jpg');
     background-size: cover !important;
     background-position: center !important;
 }

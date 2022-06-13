@@ -15,9 +15,8 @@ $(document).ready(function () {
     setInterval(function () {
         const randomImage = IMAGES[Math.floor(Math.random() * IMAGES.length)];
         $('.container__image').css('background', 'url(' + randomImage + ')');
-        $('.content__image').css('background', 'url(' + randomImage + ')');
-
-    }, 8000);
+        $('.content__image').attr('src', '' + randomImage + '')
+    }, 5000);
 
     $('.container__image').mousemove(function (event) {
         const positionX = event.pageX + 'px';

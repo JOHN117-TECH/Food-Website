@@ -19,6 +19,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding: 0rem 8rem;
     }
 
@@ -44,8 +45,8 @@
     .content__image {
         display: block;
         margin-top: 2rem;
-        height: 60%;
-        width: 100%;
+        height: 50%;
+        width: 90%;
         background: url('../img/food-1.jpg');
         background-size: cover !important;
         background-position: center !important;
@@ -83,6 +84,10 @@
         padding-left: 3rem;
     }
 
+    .container__content {
+        justify-content: flex-start;
+    }
+
     .container__content--icons {
         display: flex;
         flex-flow: row;
@@ -110,7 +115,8 @@
     }
 
     .content__image {
-        height: 50%;
+        margin-top: 10rem;
+        height: 45%;
         width: 95%;
 
     }
