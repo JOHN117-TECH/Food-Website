@@ -1,0 +1,117 @@
+@media (max-width:1440px) {
+    html {
+        font-size: 55%;
+    }
+
+    .container__content {
+
+        padding: 1rem 0rem;
+    }
+}
+
+@media (max-width:1024px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container__content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 8rem;
+    }
+
+    .container__content--icons a:link,
+    a:visited {
+        font-size: 3.5rem;
+    }
+
+    .content__title {
+        padding-top: 8rem;
+        font-size: 6rem;
+    }
+
+    .content__title--item-1 {
+        font-size: 8rem;
+
+    }
+
+    .content__title--item-2 {
+        font-size: 12rem;
+    }
+
+    .content__image {
+        display: block;
+        margin-top: 2rem;
+        height: 60%;
+        width: 100%;
+        background: url('../img/food-1.jpg');
+        background-size: cover !important;
+        background-position: center !important;
+        border-radius: 15px;
+    }
+
+
+    .container__image {
+        display: none;
+    }
+
+    .container__image {
+        width: 60%;
+    }
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width:450px) {
+    html {
+        font-size: 45%;
+    }
+
+    .header--btn {
+        position: absolute;
+        left: -0.5rem;
+        top: 0;
+    }
+
+    .header__nav {
+        padding-left: 3rem;
+    }
+
+    .container__content--icons {
+        display: flex;
+        flex-flow: row;
+        position: absolute;
+        bottom: 4rem;
+        right: 4rem;
+    }
+
+    .container__content--icons a:link,
+    a:visited {
+        font-size: 4rem;
+        margin: 0rem 1rem;
+        color: var(--white);
+        text-shadow: 0 3px 5px #000;
+
+    }
+
+    .nav__list--link a:link,
+    a:visited {
+        margin: 0 0.5rem;
+    }
+
+    .container__content {
+        padding: 1rem;
+    }
+
+    .content__image {
+        height: 50%;
+        width: 95%;
+
+    }
+}

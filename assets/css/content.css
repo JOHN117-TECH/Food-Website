@@ -68,7 +68,7 @@ a:active {
 .content__title {
     color: var(--white);
     font-size: 8rem;
-    padding-top: 8rem;
+    padding-top: 20rem;
     text-shadow: 0 3px 5px #000;
 }
 
@@ -82,10 +82,15 @@ a:active {
     color: var(--yellow);
 }
 
-.content__title--item-3 {
-    font-size: 7.5rem;
-
+.content__image {
+    display: none;
+    height: 60%;
+    width: 80%;
+    background: url('../img/food-1.jpg');
+    background-size: cover !important;
+    background-position: center !important;
 }
+
 
 .container__image {
     min-height: 93vh;

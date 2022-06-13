@@ -10,14 +10,22 @@
     border-radius: 5px;
 }
 
-.header--btn {
-    font-size: 2rem;
+.header--btn:link,
+.header--btn:visited {
+    font-size: 4rem;
     color: var(--yellow);
 }
 
 .header__nav {
+    display: flex;
     font-size: 2rem;
     color: var(--white);
+    opacity: 1;
+}
+
+.header__nav.actived {
+    display: none;
+    opacity: 0;
 }
 
 .nav__list {
