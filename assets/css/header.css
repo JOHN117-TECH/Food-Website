@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0.6rem 1.25rem;
+    margin: 2rem 2.5rem;
+    background: rgba(255, 255, 255, .1);
+    z-index: 100;
+    border-radius: 5px;
+}
+
+.header--btn {
+    font-size: 2rem;
+    color: var(--yellow);
+}
+
+.header__nav {
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.nav__list--link a:link,
+a:visited {
+    margin: 0 1.5rem;
+    color: inherit;
+}
+
+.nav__list--link a:hover,
+a:active {
+    color: var(--yellow);
+}
