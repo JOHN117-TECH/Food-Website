@@ -17,4 +17,11 @@ $(document).ready(function () {
         $('.container__image').css('background', 'url(' + randomImage + ')');
         console.log($('.container__image').css('background'));
     }, 8000);
+
+    $('.container').mousemove(function (event) {
+        const positionX = event.pageX + 'px';
+        const positionY = event.pageY + 'px';
+        $('.container__image--cursor').css({ 'top': positionY, 'left': positionX })
+    })
+    
 });

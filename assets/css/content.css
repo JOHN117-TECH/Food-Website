@@ -3,7 +3,7 @@
 }
 
 .container__content {
-    min-height: 93vh;
+    height: 100vh;
     width: 40vw;
     background-color: #222;
     position: relative;
@@ -24,7 +24,8 @@
     z-index: -1;
 }
 
-.container__content--btn {
+.container__content--btn:link,
+.container__content--btn:visited {
     position: absolute;
     bottom: 2.5rem;
     left: 1.5rem;
@@ -36,7 +37,8 @@
 }
 
 
-.container__content--btn:hover {
+.container__content--btn:hover,
+.container__content--btn:active {
     color: var(--white);
 }
 
@@ -93,9 +95,16 @@ a:active {
     background-position: center !important;
 }
 
+.container__image:hover .container__image--cursor {
+    background: none;
+    transform: scale(6);
+    border: 1px solid #ffffff;
+    backdrop-filter: grayscale();
+}
+
 .container__image--cursor {
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 5rem;
+    width: 5rem;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, .3);
     transform: translate(-50%, -50%);
