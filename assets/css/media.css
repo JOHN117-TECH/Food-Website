@@ -85,7 +85,9 @@
     }
 
     .container__content {
+        min-height: 100%;
         justify-content: flex-start;
+        padding: 0 1rem;
     }
 
     .container__content--icons {
