@@ -14,7 +14,6 @@ $(document).ready(function () {
 
     setInterval(function () {
         const randomImage = IMAGES[Math.floor(Math.random() * IMAGES.length)];
-        console.log(randomImage);
         $('.container__image').css('background', 'url(' + randomImage + ')');
         console.log($('.container__image').css('background'));
     }, 8000);

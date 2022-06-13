@@ -92,3 +92,15 @@ a:active {
     background-size: cover !important;
     background-position: center !important;
 }
+
+.container__image--cursor {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .3);
+    transform: translate(-50%, -50%);
+    transition: transform .2s;
+    pointer-events: none;
+    position: absolute;
+    z-index: 10;
+}
